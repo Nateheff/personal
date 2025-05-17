@@ -1,4 +1,5 @@
 import "./style.css";
+
 /**
  * Main JavaScript file for your personal website
  */
@@ -15,6 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Optional: Add dark mode toggle functionality
   setupDarkModeToggle();
+
+  getPosts();
 });
 
 /**
